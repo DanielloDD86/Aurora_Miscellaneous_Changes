@@ -3,7 +3,7 @@
 	<info>
 		<name>Phoenix Sorcerer</name>
 		<description>Modification to the Phoenix Sorcerer Subclass from the UA:Sorcerer expansion made by WOTC, changes the mantle of flame feature to improve with levels up</description>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="Phoenix_Sorcerer.xml" url="https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes/First_Time_Campaign/Phoenix_Sorcerer.xml" />
 		</update>
 	</info>
@@ -58,7 +58,7 @@
 			<p>Once you Mantled the number of times shown for you level you can use it again before a long rest in exchange for gaining a point of exaustiong for each extra use.</p>
 		</description>
 		<sheet action="Bonus Action" usage="{{Mantle Of Flame:count}}/Long Rest">
-			<description>You shed bright light in a 30-foot radius and dim light for an additional 30 feet for 1 minute. Any creature takes {{charisma:modifier}}fire damage if it hits you with a melee attack from within 5 feet of you or if it touches you. Whenever you roll fire damage on your turn, the roll gains a +{{charisma:modifier}} bonus.</description>
+			<description>You shed bright light in a 30-foot radius and dim light for an additional 30 feet for 1 minute. Any creature takes {{charisma:modifier}}fire damage if it hits you with a melee attack from within 5 feet of you or if it touches you. Whenever you roll fire damage on your turn, the roll gains a +{{charisma:modifier}} bonus. Once you Mantled the number of times shown for you level you can use it again before a long rest in exchange for gaining a point of exaustiong for each extra use.</description>
 		</sheet>
 		<rules>
 			<stat name="Mantle Of Flame:count" value="1" level="1" />
