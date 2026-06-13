@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Aurora Miscellaneous Changes</name>
+		<update version="1.0.0">
+			<file name="Aurora_Miscellaneous_Changes.index" url="https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Phoenix_Sorcerer.xml" url="https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes/First_Time_Campaign/Phoenix_Sorcerer.xml" />
+	</files>
+</index> 

@@ -1,16 +1,7 @@
-# repositoryname
-additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
+# Aurora_Miscellaneous_Changes
+additional content to extend [Aurora](https://aurorabuilder.com/), by DanielloDD86
 
-index url: https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname.index
+index url: https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes.index
 
----
 
-instructions to get started with the repository:
-
-- replace ***yourname*** in the index filename, the user-yourname folder, this readme, and all the urls in each file
-- replace ***yourgithubaccount*** in all the urls in each file with the name of your github account
-- replace ***repositoryname*** in all the urls in each file with the name of this repository
-
-after having replaced the parts you can include the index using the new url
-
-remember to increment the update version of the file each time when you change the content
+ 
