@@ -3,7 +3,7 @@
 	<info>
 		<name>Cool Weapons</name>
 		<description>A more powerful sword instead of dragon slayer but still dragon themed</description>
-		<update version="1.0.2">
+		<update version="1.0.3">
 			<file name="Custom_Weapons.xml" url="https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes/First_Time_Campaign/Custom_Weapons.xml" />
 		</update>
 	</info>
@@ -34,3 +34,4 @@
 			<select type="Spell" name="Dragon Destroyer" supports="4,(Evocation)" />
 		</rules>
 	</element>
+</elements>
