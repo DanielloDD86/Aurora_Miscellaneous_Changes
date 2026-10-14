@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Cool Weapons</name>
+		<description>A more powerful sword instead of dragon slayer but still dragon themed</description>
+		<update version="1.0.1">
+			<file name="Custom_Weapons.xml" url="https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes/First_Time_Campaign/Custom_Weapons.xml" />
+		</update>
+	</info>
+    
+    <element name="Dragon Destroyer" type="Magic Item" source="Aurora Miscellaneous Changes" id="ID_AMC_MAGIC_ITEM_DRAGON_DESTROYER">
+		<description>
+            <p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p>
+			<p>Bound into this weapon is a level 4 spell Fire Shield. The Spell imbued in this weapon cannot be changed. The weapon has 4 charges and regains 1d4 expended charges daily at dawn. While wielding the weapon, you can expend 1 charge to cast Fire Shield.</p>
+			<p>The casting time of the spell is an action and it lasts for 10 minutes</p>
+            <p class="indent">To cast the spell you need perform its verbal component, you do not need to be profficient with the spell, you need to be attuned to the weapon to use it.</p>
+            <p class="indent">Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</p>
+            <p class="indent">The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.</p>
+            <p class="indent">In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.</p>
+            <p class="indent">If that creature is a dragon, it instead takes 4d8 damage</p>
+		</description>
+		<setters>
+			<set name="keywords">spell, charges, recharge, evocation, action</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="Longsword">Weapon</set>
+			<set name="weapon">Longsword</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="cost" currency="gp">50000</set>
+			<set name="charges">4</set>
+		</setters>
+		<rules>
+			<select type="Spell" name="Dragon Destroyer" supports="4,(Evocation)" />
+		</rules>
+	</element>
