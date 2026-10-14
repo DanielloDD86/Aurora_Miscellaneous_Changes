@@ -3,13 +3,14 @@
 	<info>
 		<name>Cool Weapons</name>
 		<description>A more powerful sword instead of dragon slayer but still dragon themed</description>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="Custom_Weapons.xml" url="https://raw.githubusercontent.com/DanielloDD86/Aurora_Miscellaneous_Changes/master/Aurora_Miscellaneous_Changes/First_Time_Campaign/Custom_Weapons.xml" />
 		</update>
 	</info>
     
     <element name="Dragon Destroyer" type="Magic Item" source="Aurora Miscellaneous Changes" id="ID_AMC_MAGIC_ITEM_DRAGON_DESTROYER">
 		<description>
+			<p>The sword is a longsword with a hilt in the shape of a dragon head and it is imbued with jewels. Once attuned to, the sword glows a faint amber intially and then switches to amber or blue depending on whether warm or chill shield was used last respectivelly.</p> 
             <p>You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.</p>
 			<p>Bound into this weapon is a level 4 spell Fire Shield. The Spell imbued in this weapon cannot be changed. The weapon has 4 charges and regains 1d4 expended charges daily at dawn. While wielding the weapon, you can expend 1 charge to cast Fire Shield.</p>
 			<p>The casting time of the spell is an action and it lasts for 10 minutes</p>
